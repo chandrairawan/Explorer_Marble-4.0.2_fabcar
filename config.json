@@ -1,0 +1,36 @@
+{
+   "network-config": {
+		"org1": {
+			"name": "peerOrg1",
+			"mspid": "Org1MSP",
+			"peer1": {
+				"requests": "grpc://127.0.0.1:7051",
+				"events": "grpc://127.0.0.1:7053",
+				"server-hostname": "peer0.org1.example.com",
+				"tls_cacerts": "../marbles-4.0.2/config/crypto/prebaked/explorer/ca.crt"
+			},
+			"admin": {
+				"key": "../marbles-4.0.2/config/crypto/prebaked/explorer/keystore",
+				"cert": "../marbles-4.0.2/config/crypto/prebaked/explorer/signcerts"
+			}
+		}
+   },
+   "host":"127.0.0.1",
+   "port":"8080",     
+   "channel": "mychannel",
+	"keyValueStore": "/tmp/fabric-client-kvs",
+	"eventWaitTime": "30000",
+      "users":[
+      {
+         "username":"PeerAdmin",
+         "secret":"-"
+      }
+   	],
+	"mysql":{
+      "host":"127.0.0.1",
+      "port":"3306",
+      "database":"fabricexplorer",
+      "username":"root",
+      "passwd":"it2"
+   }
+}
