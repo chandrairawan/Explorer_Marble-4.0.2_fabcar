@@ -1,4 +1,4 @@
-# Hyperledger Explorer_Marble-4.0.2_fabcar
+# Hyperledger Explorer - Marbles - 4.0.2 - fabcar
 
 #How to connect Hyperledger Explorer with Marble-4.0.2 or fabcar
 
